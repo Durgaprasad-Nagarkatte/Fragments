@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.company.durgaprasad.fragment.MainActivity">
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.company.durgaprasad.fragment.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.company.durgaprasad.fragment.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragmentOne"
+        android:layout_marginTop="10dp"/>
+
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:name="com.company.durgaprasad.fragment.Fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragmentTwo"
+        android:layout_marginTop="10dp"/>
+
+
+
+</RelativeLayout>
